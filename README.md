@@ -31,9 +31,8 @@
 
 <p><b>Computer Engineering Student · Python Developer</b></p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael_Collares-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rafael-collares-91a282385)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael_Collares-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-collares17/)
 [![Email](https://img.shields.io/badge/Email-rafaelcollares17@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafaelcollares17@gmail.com)
-
 <br>
 
 </div>
