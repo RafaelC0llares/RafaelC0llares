@@ -19,7 +19,7 @@
 <table>
 <tr>
 <!-- Nota: O arquivo mantém o nome avi-ascii.svg como estava na sua pasta local -->
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="Rafael Collares — ASCII portrait" /></td>
+<td valign="top"><img src="./avatar.svg" width="370" alt="Rafael Collares — ASCII portrait" /></td>
 <td valign="top"><img src="./info-card.svg" width="490" alt="Rafael Collares — experience, stack, highlights" /></td>
 </tr>
 </table>
