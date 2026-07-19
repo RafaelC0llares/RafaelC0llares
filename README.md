@@ -7,14 +7,14 @@
 <!-- animated contribution graph: real data, boxes reveal cell by cell
      (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-<h3><code>rafael@github ~ $ ./contributions.sh</code></h3>
+<h3><code>RafaelC0llares@github ~ $ ./contributions.sh</code></h3>
 
 <img src="./contrib-heatmap.svg" width="860" alt="Rafael's GitHub contribution graph — auto-refreshed daily" />
 
 <br>
 <br>
 
-<h3><code>rafael@github ~ $ whoami</code></h3>
+<h3><code>RafaelC0llaresgithub ~ $ whoami</code></h3>
 
 <table>
 <tr>
