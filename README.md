@@ -34,7 +34,7 @@
 ### 🎓 Academic & Professional
 
 [![Lattes](https://img.shields.io/badge/Lattes-Curriculum-0078D4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K1261828Z5)
-[![Research](https://img.shields.io/badge/Projetos-Overview_LACIS-2DA44E?style=for-the-badge&logo=github&logoColor=white)](https://lacis.ufpa.br/3f646ff7-85a1-42e9-a48d-2341b5b8366e/)
+[![Research](https://img.shields.io/badge/Professional-Overview_LACIS-2DA44E?style=for-the-badge&logo=github&logoColor=white)](https://lacis.ufpa.br/3f646ff7-85a1-42e9-a48d-2341b5b8366e/)
 
 <br>
 
