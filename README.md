@@ -31,10 +31,14 @@
 
 <p><b>Computer Engineering Student · Python Developer</b></p>
 
----
 ### 🎓 Academic & Professional
-- **Lattes Curriculum**: [Acesse meu currículo completo no CNPq](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K1261828Z5)
-- **Research & Projects**: [Confira meu overview de trabalhos e pesquisas](https://lacis.ufpa.br/3f646ff7-85a1-42e9-a48d-2341b5b8366e/)
+
+[![Lattes](https://img.shields.io/badge/Lattes-Currículo_CNPq-0078D4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K1261828Z5)
+[![Research](https://img.shields.io/badge/Projetos-Overview_LACIS-2DA44E?style=for-the-badge&logo=github&logoColor=white)](https://lacis.ufpa.br/3f646ff7-85a1-42e9-a48d-2341b5b8366e/)
+
+<br>
+
+### 🔗 Links
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael_Collares-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-collares17/)
 [![Email](https://img.shields.io/badge/Email-rafaelcollares17@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafaelcollares17@gmail.com)
 <br>
