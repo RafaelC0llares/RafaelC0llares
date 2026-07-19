@@ -27,7 +27,7 @@
 <br>
 <br>
 
-<h3><code>rafael@github ~ $ ./links.sh</code></h3>
+<h3><code>RafaelC0llares@github ~ $ ./links.sh</code></h3>
 
 <p><b>Computer Engineering Student · Python Developer</b></p>
 
