@@ -18,7 +18,7 @@ W, H = 480, 376
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
-VAL_X = PAD + 92
+VAL_X = PAD + 100  # Aumentado um pouco para caber chaves maiores como "Languages"
 LINE_H = 20.5
 
 BG = "#0d1117"
@@ -32,27 +32,26 @@ GREEN = "#3fb950"
 ACCENT = "#22d3ee"
 
 # content model: tuples describing each row
-# ("host",)                    -> "avi@github" + rule
+# ("host",)                    -> "rafael@github" + rule
 # ("kv", key, value)           -> orange key + light value
 # ("sec", title)               -> blue "— title —" rule
 # ("bul", text)                -> green dot + light text
 # ("gap",)                     -> vertical space
 ROWS = [
     ("host",),
-    ("kv", "Now", "Software Engineer @ Dock.us"),
-    ("kv", "Prev", "Founding Engineer @ Turgon AI"),
-    ("kv", "Also", "SDE + Instructor @ AccioJob (YC'21)"),
-    ("kv", "Edu", "B.Tech CS, IIIT Delhi '24"),
+    ("kv", "Role", "Computer Engineering Student"),
+    ("kv", "Age", "18 years old"),
+    ("kv", "Location", "Belém, PA - Brazil"),
+    ("kv", "Focus", "Practical Python Projects"),
     ("gap",),
-    ("sec", "Stack"),
-    ("kv", "Frontend", "React, Next.js, TypeScript, R3F"),
-    ("kv", "Backend", "Node, NestJS, GraphQL, Django"),
-    ("kv", "AI / ML", "LangChain, Vercel AI SDK, OpenAI"),
-    ("kv", "Cloud", "AWS, Docker, Vercel, Prisma"),
+    ("sec", "Stack & Tools"),
+    ("kv", "Languages", "Python, C++"),
+    ("kv", "Tools", "Git, GitHub"),
+    ("kv", "Concepts", "Programming Logic"),
     ("gap",),
-    ("sec", "Highlights"),
-    ("bul", "Taught 100,000+ developers to code"),
-    ("bul", "2 books · 100k+ podcast streams"),
+    ("sec", "Interests"),
+    ("bul", "Technology & Innovation"),
+    ("bul", "Gaming & Coding"),
 ]
 
 
@@ -84,7 +83,7 @@ parts = [
 for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
 parts.append(f'<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-             f'text-anchor="middle">avi@github: ~$ neofetch</text>')
+             f'text-anchor="middle">rafael@github: ~$ neofetch</text>')
 
 y = TITLEBAR_H + 30
 for i, row in enumerate(ROWS):
@@ -94,9 +93,9 @@ for i, row in enumerate(ROWS):
         continue
     if kind == "host":
         inner = (f'<text x="{KEY_X}" y="{y:.1f}" font-size="14" font-weight="700">'
-                 f'<tspan fill="{GREEN}">avi</tspan><tspan fill="{MUTED}">@</tspan>'
+                 f'<tspan fill="{GREEN}">rafael</tspan><tspan fill="{MUTED}">@</tspan>'
                  f'<tspan fill="{ACCENT}">github</tspan></text>'
-                 f'<line x1="{KEY_X+96}" y1="{y-4:.1f}" x2="{W-PAD}" y2="{y-4:.1f}" '
+                 f'<line x1="{KEY_X+104}" y1="{y-4:.1f}" x2="{W-PAD}" y2="{y-4:.1f}" '
                  f'stroke="{FRAME}" stroke-opacity="0.8"/>')
     elif kind == "sec":
         title = esc(row[1])

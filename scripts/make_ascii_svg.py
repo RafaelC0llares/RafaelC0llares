@@ -1,17 +1,3 @@
-"""
-Convert a portrait photo into a CLEAN, monochrome ASCII-art SVG (Andrew6rant
-style: one light-gray color, subject isolated on a dark background) that "types"
-itself in like a terminal, then holds.
-
-Monochrome is deliberate -- per-character rainbow color is what makes ASCII
-portraits look noisy. One fill color + a good density ramp + high contrast (so a
-busy background washes out to blank) reads as neat and legible.
-
-GitHub renders SVGs embedded via <img> and runs their SMIL animations there (JS
-does not run). Each row is revealed with a left-to-right clip wipe plus a small
-block cursor riding the wipe edge, staggered top -> bottom, so the whole
-portrait prints once and freezes.
-"""
 from PIL import Image, ImageEnhance, ImageOps, ImageFilter
 import html
 import os
@@ -103,7 +89,7 @@ parts.append(f'<line x1="0" y1="{TITLEBAR_H}" x2="{CANVAS_W}" y2="{TITLEBAR_H}" 
 for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
 parts.append(f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" font-size="12" '
-             f'text-anchor="middle">avi@github: ~$ ./portrait.sh</text>')
+             f'text-anchor="middle">RafaelC0llares@github: ~$ ./portrait.sh</text>')
 
 # one <text> per row (single color -> no per-char markup, tiny file)
 font_size = CELL_H * 0.86
@@ -138,8 +124,8 @@ status_line_y = TITLEBAR_H + ART_H + PAD * 0.35
 status_y = status_line_y + 19
 parts.append(f'<line x1="0" y1="{status_line_y:.1f}" x2="{CANVAS_W}" y2="{status_line_y:.1f}" stroke="{FRAME}"/>')
 parts.append(f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
-             f'avi@github:~$ whoami <tspan fill="{INK}">Avi Vashishta</tspan></text>')
-parts.append(f'<rect x="{PAD+196}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'
+             f'rafael@github:~$ whoami <tspan fill="{INK}">Rafael Collares</tspan></text>')
+parts.append(f'<rect x="{PAD+238}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'
              f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" '
              f'dur="1s" repeatCount="indefinite"/></rect>')
 
