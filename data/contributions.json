@@ -1,22 +1,22 @@
 {
   "username": "RafaelC0llares",
-  "generated_at": "2026-08-21T07:10:32Z",
+  "generated_at": "2026-08-22T07:02:35Z",
   "range": {
     "start": "2025-08-17",
+    "end": "2026-08-22"
+  },
+  "total_contributions": 278,
+  "active_days": 72,
+  "avg_per_active_day": 3.9,
+  "current_streak": {
+    "length": 34,
+    "start": "2026-07-19",
     "end": "2026-08-21"
   },
-  "total_contributions": 270,
-  "active_days": 71,
-  "avg_per_active_day": 3.8,
-  "current_streak": {
-    "length": 33,
-    "start": "2026-07-19",
-    "end": "2026-08-20"
-  },
   "longest_streak": {
-    "length": 33,
+    "length": 34,
     "start": "2026-07-19",
-    "end": "2026-08-20"
+    "end": "2026-08-21"
   },
   "best_day": {
     "date": "2026-08-15",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 81
+      "total": 89
     }
   ],
   "days": [
@@ -1555,6 +1555,10 @@
     },
     {
       "date": "2026-08-21",
+      "count": 8
+    },
+    {
+      "date": "2026-08-22",
       "count": 0
     }
   ]
